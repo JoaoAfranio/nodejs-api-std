@@ -10,4 +10,7 @@ routes.get('/produtos/:prodID' , ProdutoController.show);
 routes.put('/produtos/:prodID', ProdutoController.update);
 
 
+//routes.get('/produtos/somar/' , ProdutoController.somaPreco);
+
+
 module.exports = routes;
